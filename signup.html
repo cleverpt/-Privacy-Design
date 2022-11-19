@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Online Privacy Design for Technician</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- All Plugin Css -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Style & Common Css -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Start  -->
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+      <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar-menu"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="img/privacy-150x150.png"
+              class="logo"
+              alt=""
+              style="height: 40px;"
+          /></a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul
+            class="nav navbar-nav navbar-right"
+            data-in="fadeInDown"
+            data-out="fadeOutUp"
+          >
+          <li><a href="services.html">Services</a></li>
+          <li><a href="personal.html">Personal Information</a></li>
+          <li><a href="signup.html">Registration</a></li>
+          <li><a href="policy.html">Policy Agreement</a></li>
+          <li><a href="transparency.html">Transparency</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- Navigation End  -->
+
+    <!-- login section start -->
+
+    <section class="login-wrapper">
+      <div class="container">
+        <form class="form-horizontal" role="form">
+          <h2>Registration</h2>
+          <div class="form-group">
+            <label for="title" class="col-sm-3 control-label">Title</label>
+            <div class="col-sm-9">
+              <input
+                type="text"
+                id="title"
+                placeholder="Title"
+                class="form-control"
+                autofocus
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="firstName" class="col-sm-3 control-label"
+              >First Name</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                id="firstName"
+                placeholder="First Name"
+                class="form-control"
+                autofocus
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastName" class="col-sm-3 control-label"
+              >Surename</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                id="lastName"
+                placeholder="Last Name"
+                class="form-control"
+                autofocus
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="birthDate" class="col-sm-3 control-label"
+              >Date of Birth*</label
+            >
+            <div class="col-sm-9">
+              <input type="date" id="birthDate" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber" class="col-sm-3 control-label"
+              >Phone number
+            </label>
+            <div class="col-sm-9">
+              <input
+                type="phoneNumber"
+                id="phoneNumber"
+                placeholder="Phone number"
+                class="form-control"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email* </label>
+            <div class="col-sm-9">
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                class="form-control"
+                name="email"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Height" class="col-sm-3 control-label"
+              >Nationality
+            </label>
+            <div class="col-sm-9">
+              <input
+                type="number"
+                id="height"
+                placeholder="Please write your height in Nationality"
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="weight" class="col-sm-3 control-label"
+              >Post Code
+            </label>
+            <div class="col-sm-9">
+              <input
+                type="number"
+                id="weight"
+                placeholder="Please write your Post Code"
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-3">Gender</label>
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-sm-4">
+                  <label class="radio-inline">
+                    <input type="radio" id="femaleRadio" value="Female" />Female
+                  </label>
+                </div>
+                <div class="col-sm-4">
+                  <label class="radio-inline">
+                    <input type="radio" id="maleRadio" value="Male" />Male
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label col-sm-3">
+              <input type="checkbox" id="femaleRadio" value="Female" />
+            </div>
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-sm-12">
+                  <label class="radio-inline">
+                    The following information is correct to the best of my
+                    knowledge
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- /.form-group -->
+          <!-- <div class="form-group">
+            <div class="col-sm-9 col-sm-offset-3">
+              <span class="help-block">*Required fields</span>
+            </div>
+          </div> -->
+          <button type="submit" class="btn btn-primary btn-block">
+            Register
+          </button>
+        </form>
+        <!-- /form -->
+      </div>
+      <!-- ./container -->
+    </section>
+
+    <!-- login section End -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <h4 style="text-align: center;">© 2018-2019 by Jobs, Inc.</h4>
+        <div class="col-md-3 col-sm-6">
+          <!-- <h4 style="text-align: center;">More Text</h4> -->
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Online Privacy Design for Technician</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- All Plugin Css -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Style & Common Css -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Start  -->
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+      <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar-menu"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="img/privacy-150x150.png"
+              class="logo"
+              alt=""
+              style="height: 40px;"
+          /></a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul
+            class="nav navbar-nav navbar-right"
+            data-in="fadeInDown"
+            data-out="fadeOutUp"
+          >
+            <li><a href="services.html">Services</a></li>
+            <li><a href="personal.html">Personal Information</a></li>
+            <li><a href="signup.html">Registration</a></li>
+            <li><a href="policy.html">Policy Agreement</a></li>
+            <li><a href="transparency.html">Transparency</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- Navigation End  -->
+
+    <!-- login section start -->
+    <section class="login-wrapper">
+      <div class="container">
+        <div class="col-md-6 col-sm-8 col-md-offset-3 col-sm-offset-2">
+          <form>
+            <h2>Online Privacy Design for Technician</h2>
+            <input
+              type="text"
+              class="form-control input-lg"
+              placeholder="User Name"
+            />
+            <input
+              type="password"
+              class="form-control input-lg"
+              placeholder="Password"
+            />
+            <!-- <label><a href="">Forget Password?</a></label> -->
+            <button
+              id="loginBtn"
+              type="button"
+              class="btn btn-primary"
+              onclick="
+              window.location='personal.html'"
+            >
+              Login
+            </button>
+
+            <p>
+              Have't Any Account
+              <a href="signup.html">Create An Account/Registration</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Privacy Notice Information
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Are you happy for your personal data to be in our data base and
+            shared with our thirds parties.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Yes
+            </button>
+            <button type="button" class="btn btn-secondary">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- login section End -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <h4 style="text-align: center;">© 2018-2019 by Jobs, Inc.</h4>
+        <div class="col-md-3 col-sm-6">
+          <!-- <h4 style="text-align: center;">More Text</h4> -->
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
